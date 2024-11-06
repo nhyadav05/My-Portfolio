@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.glow {
+  animation: move 5s linear infinite;
+  offset-path: rect(0% auto 100% auto);
+  background: radial-gradient(#ffffff, transparent);
+}
+
+@keyframes move {
+  0% {
+    offset-distance: 0%;
+  }
+
+  100% {
+    offset-distance: 100%;
+  }
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 0px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
