@@ -17,7 +17,7 @@ const About: React.FC = () => {
             <ReactTyped
               strings={[
                 "<b>Hey...<br/>Myself Neha Yadav</b></span><br/><br/>" +
-                  "<b>Experienced Front-end Developer:</b> I am a highly motivated and skilled React JS Developer with 1.6 year of professional experience. My expertise lies in building efficient and scalable web applications with a focus on delivering high-quality code.<br/><br/>" +
+                  "<b>Experienced Front-end Developer:</b> I am a highly motivated and skilled React JS Developer with 1.8 year of professional experience. My expertise lies in building efficient and scalable web applications with a focus on delivering high-quality code.<br/><br/>" +
                   "<b>Technical Proficiency:</b> I specialize in React.js, Next.js, Tailwind CSS, TypeScript, Redux Toolkit, JavaScript, and RESTful APIs. I have hands-on experience with frontend technologies including Next.js, React.js, and React Native.<br/><br/>" +
                   "<b>Team Collaboration:</b> I pride myself on working effectively in dynamic team environments, ensuring that projects are delivered on time while fostering collaboration and productivity.<br/><br/>" +
                   "<b>Education:</b> I completed my M.Sc. in Mathematics from Christian Eminent College, Indore, M.P. (2019 to 2021), and my B.Sc. in Computer Science from Christian Eminent College, Indore, M.P. (2016 to 2019).<br/><br/>" +

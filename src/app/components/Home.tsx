@@ -7,7 +7,7 @@ import { saveAs } from "file-saver";
 
 const HomePage: React.FC = () => {
   const handleDownload = () => {
-    fetch("/Neha-Yadav-Resume.pdf")
+    fetch("/Neha-Yadav-CV-Resume.pdf")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Network response was not ok");
@@ -25,17 +25,15 @@ const HomePage: React.FC = () => {
   return (
     <div className="text-white flex flex-col items-center justify-center">
       <div className="relative w-full h-full bg-cover bg-center">
-        <div className="relative z-10 flex flex-col md:flex-row items-center justify-between h-full p-8 mt-[100px]">
+        <div className="relative z-10 flex flex-col md:flex-row items-center justify-between h-full p-8  mt-28">
           <div className="text-center md:text-clip md:w-full">
             <h1 className="leading-10 text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-800 via-purple-800 to-pink-500 bg-clip-text ">
               Welcome To My Portfolio
             </h1>
-            <div className="h-[50px] md:h-[80px] flex items-center justify-center">
+            <div className="py-20 flex items-center justify-center">
               <ReactTyped
                 strings={[
-                  "Build your own website with the best developer",
-                  "I create modern and responsive web applications",
-                  "Transforming your ideas into reality with code",
+                  "Build your website with a top developer. I create responsive web apps, transforming your ideas into reality.Developed and maintained dynamic user interfaces using React,contributing to both technical and UI/UX component design Collaborated with backend developers to integrate APIs,improving overall application features and performance.",
                 ]}
                 typeSpeed={40}
                 backSpeed={50}
@@ -53,7 +51,6 @@ const HomePage: React.FC = () => {
 
           <div className="flex justify-center md:w-[400px] md:h-[300px] rounded-full p-1 mt-8 md:mt-0 overflow-hidden relative">
             <div className="glow inset-0 absolute rotate-45"></div>
-            {/* <div className="bg-black rounded-full p-1"> */}
             <Image
               src="/my-profile.jpeg"
               height={500}
@@ -61,7 +58,6 @@ const HomePage: React.FC = () => {
               alt="Your Description"
               className="w-[300px] h-full rounded-full z-10 overflow-hidden"
             />
-            {/* </div> */}
           </div>
         </div>
       </div>
